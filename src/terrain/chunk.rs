@@ -8,7 +8,7 @@ use noise::{NoiseFn, OpenSimplex, Seedable};
 use super::node::{Iso, Pos, Element, TerrainNodeBundle};
 
 
-pub const SIZE: (usize, usize, usize) = (10, 10, 10);
+pub const SIZE: (usize, usize, usize) = (32, 32, 32);
 pub const NODE_COUNT: usize = SIZE.0 * SIZE.1 * SIZE.2;
 pub const NODE_DICTANCE: f64 = 10.0;
 

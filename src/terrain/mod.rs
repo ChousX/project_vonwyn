@@ -1,6 +1,6 @@
 mod node;
 mod chunk;
-mod mesh;
+mod rendering;
 
 use bevy::prelude::*;
 
