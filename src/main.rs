@@ -26,9 +26,8 @@ fn main() {
             ..Default::default()
         })
         .add_plugins(DefaultPlugins)
-        .add_plugin(terrain::TerrainPlugin)
+        //.add_plugin(terrain::TerrainPlugin)
         ;
     //render stuff
-    app
-        .run();
+    app.run();
 }

@@ -2482,8 +2482,10 @@ name = "project_vonwyn"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "bytemuck",
  "noise",
  "rand 0.8.5",
+ "wgpu",
 ]
 
 [[package]]
